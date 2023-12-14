@@ -1,0 +1,22 @@
+/*NavBar*/
+.logoNav img{
+    height: 70px;
+    width: 80px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#navBar {
+    margin-top: 70px; 
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbarNav {
+    justify-content: flex-end; 
+}
+.logoNav {
+    width: 70px;
+    height: 70px;
+}
+

@@ -1,0 +1,35 @@
+
+/*IMAGENES*/
+
+#contedorImg{
+    width: 1366px;
+    height: 768px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;  
+}
+
+
+.gridImg{
+background-size: cover;
+background-image: url(../images/FotosDelMusi1.jpg);
+}
+
+.gridImg2{
+background-image: url(../images/FotosDelMusi2.jpg);
+background-size: cover;
+
+}
+
+.gridImg3{
+background-image: url(../images/FotosDelMusi3.jpg);
+background-size: cover;
+
+}
+
+.gridImg4{
+background-image: url(../images/FotosDelMusi4.jpg);
+background-size: cover;
+
+}

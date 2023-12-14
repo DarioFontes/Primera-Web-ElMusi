@@ -1,10 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    scroll-behavior: smooth;
-}
+@import "footer";
+@import "headerNav";
+@import "resetcss";
+@import "imagenes/imagenes";
+@import "contacto/contacto";
+@import "conocenos/conocenos";
+@import "tienda/tienda";
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
 
 body {
     margin: 0;
@@ -25,30 +27,11 @@ header {
     
 }
 
-.logoNav img{
-    height: 70px;
-    width: 80px;
-    display: flex;
-    justify-content: flex-start;
-    
-}
-
-
-
-#navBar {
-    margin-top: 70px; 
-    display: flex;
-    justify-content: space-around;
-}
-
-#navbarNav {
-    justify-content: flex-end; 
-}
-
 main {
     min-height: 100vh; 
     text-align: center;
     margin-top: 20px;
+    font-family: 'Hedvig Letters Serif', serif;
 }
 
 
@@ -63,17 +46,7 @@ main {
     opacity: 0.7; 
 }
 
-.logoNav {
-    width: 70px;
-    height: 70px;
-}
 
-li, a {
-    display: inline-block;
-    font-style: none;
-    list-style: none;
-    text-decoration: none;
-}
 .card {
     transition: transform 0.2s; 
     gap: 15px;
@@ -141,83 +114,3 @@ li, a {
     height: auto;
   }
 
-
-/*Pie De Pagina*/
-
-footer {
-    margin-top: auto;
-    background-color: #20D5CA;
-    text-align: center;
-    align-items: flex-end;
-    padding: 10px;
-    display: flex;
-    justify-content: space-around;
-    bottom: 0;
-    width: 100%;  
-}
-.foterLinks ul li{
-    display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    text-align: center;
-}
-
-.foterLogo img {
-    width: 100px;
-    height: 50px;
-    display: flex;
-    align-items: flex-start;
-    
-}
-
-.foterRedes img {
-    max-width: 50px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    width: 50px;
-    height: 50px;
-    padding: 10px;
-}
-
-/*Contacto*/
-
-#Formulario{
-    display: flex;
-}
-
-
-/*IMAGENES*/
-
-#contedorImg{
-        width: 1366px;
-        height: 768px;
-        display: grid;
-        grid-template-rows: repeat(3, 1fr);
-        grid-template-columns: repeat(3, 1fr);
-        gap: 8px;  
-}
-
-
-.gridImg{
-    background-size: cover;
-    background-image: url(../images/FotosDelMusi1.jpg);
-}
-
-.gridImg2{
-    background-image: url(../images/FotosDelMusi2.jpg);
-    background-size: cover;
-
-}
-
-.gridImg3{
-    background-image: url(../images/FotosDelMusi3.jpg);
-    background-size: cover;
-    
-}
-
-.gridImg4{
-    background-image: url(../images/FotosDelMusi4.jpg);
-    background-size: cover;
-    
-}
