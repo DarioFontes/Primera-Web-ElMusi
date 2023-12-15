@@ -32,20 +32,16 @@ main {
     margin-top: 20px;
     font-family: 'Hedvig Letters Serif', serif;
 }
-
-
 .PrimerImg img{
     height: auto;
     max-width: 100%;
 }
-
-#textoContacto {
-    font-size: 20px;
-    background-color: red;
-    opacity: 0.7; 
+/*Cards del Index*/
+.modal-body img{
+    height: auto;
+    max-width: 75%;
+    position: cover;
 }
-
-
 .card {
     transition: transform 0.2s; 
     gap: 15px;
@@ -64,37 +60,14 @@ main {
     text-align: center;
     gap: 13px;
     align-items: center;
+    margin-top: 10px;
 }
 .card-body {
     max-height: 150px;
     overflow: auto;
 }
 
-/*.Recorrido_Grande{
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, .5);
-    width: 100%;
-    height: 100vh;
-    z-index: 1000;  
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    transform: scale(0);   
-}
-.Recorrido_Grande img{
-    width: 75vw;
-    max-width: 70vh;
-}
-
-.Recorrido_Grande:target{
-    transform: 1;
-} */
-
-
 /*Videos del index*/
-
 #videos {
     display: flex;
     gap: 10px;
@@ -102,12 +75,10 @@ main {
     background-image: url(../images/FondoPastel.jpg);
     object-fit: cover;
   }
-  
   .Video {
     flex: 1;
     max-width: 300px; 
   }
-  
   .Video video {
     width: 100%;
     height: auto;
