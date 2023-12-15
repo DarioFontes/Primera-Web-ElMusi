@@ -13,7 +13,6 @@ body {
     background-size: cover;
     background-position: center;
     background-image: black;
-    
 }
 
 header {
@@ -23,7 +22,6 @@ header {
     top: 0;
     z-index: 1000;
     background-color: white;
-    
 }
 
 main {
@@ -44,24 +42,22 @@ main {
     position: cover;
 }
 .card {
-    transition: transform 0.2s; 
+    
     gap: 15px;
     font-size: 18px;
 }
-.card:hover {
+/*.card:hover {
     transform: scale(1.05); 
-}
+}*/
 .card-group {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: auto;
     justify-content: space-around;
-    overflow: hidden;
     text-align: center;
-    gap: 13px;
-    align-items: center;
-    margin-top: 10px;
+    gap: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
 }
 .card-body {
     max-height: 150px;

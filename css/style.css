@@ -35,6 +35,13 @@ footer {
   padding: 10px;
 }
 
+.foterRedes i {
+  border: solid;
+  height: 80px;
+  width: 80px;
+  background-color: black;
+}
+
 /*NavBar*/
 .logoNav img {
   height: 70px;
@@ -54,7 +61,7 @@ footer {
 }
 
 .logoNav {
-  width: 70px;
+  width: 80px;
   height: 70px;
 }
 
@@ -152,26 +159,22 @@ main {
 }
 
 .card {
-  transition: transform 0.2s;
   gap: 15px;
   font-size: 18px;
 }
 
-.card:hover {
-  transform: scale(1.05);
-}
-
+/*.card:hover {
+    transform: scale(1.05); 
+}*/
 .card-group {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  height: auto;
   justify-content: space-around;
-  overflow: hidden;
   text-align: center;
-  gap: 13px;
-  align-items: center;
-  margin-top: 10px;
+  gap: 10px;
+  margin-top: 14px;
+  margin-bottom: 14px;
 }
 
 .card-body {
