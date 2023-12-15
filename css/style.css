@@ -122,6 +122,14 @@ li, a {
   opacity: 0.7;
 }
 
+#banner_concenos {
+  margin-top: 80px;
+}
+
+#banner_Tienda {
+  margin-top: 80px;
+}
+
 body {
   margin: 0;
   padding: 0;
