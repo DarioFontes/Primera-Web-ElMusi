@@ -81,6 +81,11 @@ li, a {
 }
 
 /*IMAGENES*/
+#bannerIMG {
+  text-align: center;
+  margin-top: 90px;
+}
+
 #MainImg {
   background-color: skyblue;
 }
@@ -98,18 +103,39 @@ li, a {
 #contedorImg img {
   width: 100%;
   height: auto;
+  border: 1px solid;
+  border-radius: 8px;
 }
 
 /*Contacto*/
-#Formulario {
-  display: flex;
+#main {
+  margin-top: 80px;
 }
 
-#textoContacto {
-  margin-top: 80px;
-  font-size: 20px;
-  background-color: red;
-  opacity: 0.7;
+#Formulario {
+  background-color: rgba(11, 53, 240, 0.4117647059);
+  padding: 20px;
+}
+
+#formularioContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form {
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
 }
 
 #banner_concenos {

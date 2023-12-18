@@ -1,5 +1,12 @@
 
 /*IMAGENES*/
+
+#bannerIMG{
+    text-align: center;
+    margin-top: 90px;
+}
+
+
 #MainImg{
     background-color: skyblue;
 }
@@ -12,7 +19,7 @@
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
     max-width: 800px;
     gap: 10px;
-    margin: 0 auto;     
+    margin: 0 auto; 
 }
 
 
@@ -20,5 +27,7 @@
     img{
         width: 100%;
         height: auto;
+        border: 1px solid;
+        border-radius: 8px;
     }
 }
