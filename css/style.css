@@ -38,6 +38,16 @@ footer {
   padding: 10px;
 }
 
+@media screen and (max-width: 540px) {
+  .footerLinks {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footerLinks li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
 /*NavBar*/
 .logoNav img {
   height: 70px;

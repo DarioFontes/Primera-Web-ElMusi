@@ -10,15 +10,17 @@ footer {
     bottom: 0;
     width: 100%;  
 }
+
 .footerLinks i {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-
 .footerLinks a {
     text-decoration: none;
 }
+
+
 
 
 .foterLogo img {
@@ -37,4 +39,17 @@ footer {
     width: 50px;
     height: 50px;
     padding: 10px;
+}
+
+@media screen and (max-width: 540px) {
+    .footerLinks {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .footerLinks li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
 }
