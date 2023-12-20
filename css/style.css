@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
 footer {
   margin-top: auto;
-  background-color: #20D5CA;
+  background: rgb(52, 47, 143);
+  background: rgb(50, 205, 60);
+  background: linear-gradient(180deg, rgb(50, 205, 60) 12%, rgb(0, 255, 179) 100%);
   text-align: center;
   align-items: flex-end;
   padding: 10px;
@@ -50,7 +52,7 @@ footer {
 /*NavBar*/
 .logoNav img {
   height: 70px;
-  width: 80px;
+  width: 95px;
   display: flex;
   justify-content: flex-start;
 }
@@ -214,7 +216,8 @@ main {
   display: flex;
   gap: 10px;
   justify-content: space-around;
-  background-image: url(../images/FondoPastel.jpg);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(180deg, rgb(2, 0, 36) 14%, rgba(16, 26, 152, 0.6586231905) 52%, rgb(0, 212, 255) 100%);
   object-fit: cover;
 }
 
