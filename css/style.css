@@ -39,12 +39,11 @@ footer {
 }
 
 @media screen and (max-width: 540px) {
-  .footerLinks {
+  footer {
     flex-direction: column;
     align-items: center;
   }
-  .footerLinks li {
-    margin-right: 0;
+  footer article {
     margin-bottom: 10px;
   }
 }
