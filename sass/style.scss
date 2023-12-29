@@ -5,7 +5,8 @@
 @import "contacto/contacto";
 @import "conocenos/conocenos";
 @import "tienda/tienda";
-@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+@import "variables";
+
 
 body {
     margin: 0;
@@ -28,7 +29,7 @@ main {
     min-height: 100vh; 
     text-align: center;
     margin-top: 20px;
-    font-family: 'Hedvig Letters Serif', serif;
+    font-family: $fuente, serif;
 }
 .PrimerImg img{
     height: auto;

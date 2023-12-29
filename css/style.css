@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
 footer {
   margin-top: auto;
-  background: rgb(52, 47, 143);
-  background: rgb(50, 205, 60);
   background: linear-gradient(180deg, rgb(50, 205, 60) 12%, rgb(0, 255, 179) 100%);
   text-align: center;
   align-items: flex-end;
@@ -123,6 +120,10 @@ li, a {
   padding: 20px;
 }
 
+#textoContacto {
+  background-color: #00FFC5;
+}
+
 #formularioContainer {
   display: flex;
   flex-direction: column;
@@ -148,8 +149,17 @@ textarea {
   margin-top: 80px;
 }
 
+#mainconocenos {
+  background-color: #00FFC5;
+}
+
 #banner_Tienda {
   margin-top: 80px;
+  font-family: url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap");
+}
+
+#main_Tienda {
+  background-color: #00FFC5;
 }
 
 body {
@@ -173,7 +183,7 @@ main {
   min-height: 100vh;
   text-align: center;
   margin-top: 20px;
-  font-family: "Hedvig Letters Serif", serif;
+  font-family: url("https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap"), serif;
 }
 
 .PrimerImg img {

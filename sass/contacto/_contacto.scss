@@ -1,3 +1,5 @@
+@import "../variables";
+
 
 /*Contacto*/    
 #main{
@@ -8,6 +10,10 @@
     padding: 20px;
 }
 
+#textoContacto{
+    background-color: $Fondo-comun;
+}
+
 #formularioContainer {
     display: flex;
     flex-direction: column;
@@ -16,6 +22,8 @@
     max-width: 400px;
     margin: 0 auto; 
 }
+
+
 
 form {
     width: 100%;

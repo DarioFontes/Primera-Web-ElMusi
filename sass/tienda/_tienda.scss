@@ -1,5 +1,11 @@
-
+@import "../variables";
 
 #banner_Tienda{
     margin-top: 80px;
+    font-family: $fuente;
+}
+
+
+#main_Tienda{
+    background-color: $Fondo-comun;
 }
